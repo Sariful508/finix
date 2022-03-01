@@ -1,0 +1,220 @@
+        // =========== 1318px ===========
+        @media(max-width: 1318px) {
+            #header .navbar .call-number .call {
+                font-size: 14px;
+            }
+            .d-flex {
+                align-items: center;
+            }
+            #header {
+                a.digit {
+                    font-size: 7px;
+                }
+            }
+            .btn-primary {
+                padding: 9px 8px;
+                width: 100%;
+            }
+        }
+        
+        // =========== 1200px ===========
+        @media(max-width: 1200px) {
+            #banner .banner-content h2 {
+                font-size: 62px;
+            }
+            #banner .follow-us::after {
+                left: 15%;
+            }
+        }
+        
+        // =========== 1199px ===========
+        @media(max-width: 1199px) {
+            .fas.fa-bars {
+                font-size: 33px;
+            }
+            #header {
+                ul {
+                    margin: 30px 0;
+                }
+                li {
+                    padding: 5px;
+                }
+                .border-right {
+                    display: none;
+                }
+            }
+            #header a.digit {
+                font-size: 16px;
+            }
+            #header .navbar .call-number .call {
+                font-size: 20px;
+            }
+            .d-flex {
+                margin-left: 24px;
+            }
+            #banner {
+                background-size: 100% 100%;
+            }
+            #banner .follow-us::after {
+                top: 79%;
+                left: 15%;
+                width: 4%;
+            }
+            #banner {
+                height: 90vh;
+            }
+            #about .about-text h2 {
+                font-size: 30px;
+            }
+            .lead {
+                font-size: 1.1rem;
+            }
+            #apply .apply-text-right h2 {
+                font-size: 26px;
+            }
+            #apply .apply-main-form {
+                padding: 56px;
+            }
+            #apply .apply-text-left h2 {
+                font-size: 35px;
+            }
+            #apply .apply-main-form {
+                padding: 56px;
+            }
+            .text-light.business-call-no {
+                font-size: 27px;
+            }
+            #business-call .call-text h2 {
+                font-size: 30px;
+            }
+            #services a {
+                font-size: 17px;
+            }
+            #services .nav-link.active::after {
+                top: 87px;
+                width: 146px;
+            }
+            #team .social-icon {
+                left: 45%;
+            }
+            #footer .footer-content p {
+                font-size: 14px;
+            }
+            #footer {
+                .footer-mt-handle {
+                    margin: 0;
+                }
+                .text-light.mr-3.text-capitalize.follow {
+                    font-size: 15px;
+                }
+            }
+        }
+        
+        // =========== 991px ===========
+        @media(max-width: 991px) {
+            #banner .follow-us::after {
+                display: none;
+            }
+            #banner .banner-content h2 {
+                font-size: 57px;
+            }
+            #services a {
+                font-size: 11px;
+            }
+            #services .flat-icon {
+                height: 80px;
+                width: 80px;
+                line-height: 80px;
+            }
+            #services .nav-link.active::after {
+                top: 77px;
+                width: 109px;
+            }
+            #client .client-text p {
+                font-size: 19px;
+            }
+        }
+        
+        // =========== 767px ===========
+        @media(max-width: 767px) {
+            #business-call .call-text h2 {
+                font-size: 27px;
+            }
+            #services a {
+                font-size: 20px;
+            }
+            #services .nav-link.active::after {
+                top: 50px;
+                width: 109px;
+            }
+            #services .nav-link.active::after {
+                left: 18px;
+            }
+        }
+        
+        // =========== 575px ===========
+        @media(max-width: 575px) {
+            #banner .banner-content h2 {
+                font-size: 35px;
+            }
+            #apply ul::before {
+                top: 2%;
+            }
+            #apply .apply-text-left h2 {
+                font-size: 26px;
+            }
+            #business-call .call-text h2 {
+                font-size: 18px;
+            }
+            .text-light.business-call-no {
+                font-size: 23px;
+            }
+            #client .client-text p {
+                font-size: 16px;
+            }
+            #footerLast .footer-text p {
+                font-size: 14px;
+            }
+        }
+        
+        // =========== 530px ===========
+        @media(max-width: 530px) {
+            #apply {
+                li::before {
+                    display: none;
+                }
+            }
+        }
+        
+        // =========== 399px ===========
+        @media(max-width: 399px) {
+            #banner .banner-content h2 {
+                font-size: 29px;
+            }
+            .p-1 {
+                padding: 1.5rem !important;
+            }
+            #about .about-text h2 {
+                font-size: 24px;
+            }
+            .text-light.business-call-no {
+                font-size: 14px;
+            }
+            #services h2 {
+                font-size: 28px;
+            }
+            #team .social-icon {
+                left: 84%;
+            }
+            #team .social-icon a i {
+                margin: 2px 0;
+            }
+            #team {
+                h4 {
+                    font-size: 22px;
+                }
+            }
+            #footerLast .footer-text p {
+                font-size: 11px;
+            }
+        }
